@@ -4,7 +4,7 @@ import gradio as gr
 import os
 
 # Configure Gemini API - Use the native Google AI library instead of OpenAI wrapper
-api_key = os.getenv("GEMINI_API_KEY", "")
+api_key = os.getenv("GEMINI_API_KEY", "AIzaSyDZjyc-P0o1BBdEJXUNmoUDubQDWKyUfCI")
 genai.configure(api_key=api_key)
 
 # Initialize the model
